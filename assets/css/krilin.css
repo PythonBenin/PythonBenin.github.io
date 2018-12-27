@@ -1,0 +1,86 @@
+/* My custom style */
+/* Font */
+html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+/* Horizontal center for images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+/* Custom sections styles */
+#first {
+    background-image: url("../img/first.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+#firstseccol {
+    align-self: start;
+    padding-top: 20vh;
+}
+
+/* Gros decalage sur mobile */
+#firstseccolmob {
+    align-self: start;
+    padding-top: 10vh;
+}
+
+#alerte {
+    background-color: #F25F5C;
+    background-image: url("../img/vector1.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#conseil {
+    background-color: #297FCA;
+    background-image: url("../img/vector2.svg");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#pertubation {
+    background-color: #39CC76;
+    background-image: url("../img/vector3.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#obtenez {
+    background-color: #0E1322;
+}
+
+#last {
+    background-image: url("../img/last.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+#report {
+    /* background: rgb(41,127,202);
+    background: linear-gradient(90deg, rgba(41,127,202,1) 10%, rgba(242,95,92,1) 80%); */
+
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);}
+/* #footer {
+    background-color: #0E1322;
+} */
+
+.text-bleu {
+    color: #297FCA;
+}
