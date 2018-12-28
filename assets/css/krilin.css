@@ -30,7 +30,7 @@ hr {
 
 /* Custom sections styles */
 #first {
-    background-image: url("../img/pablo-downloading.png");
+    background-image: url("../img/background.svg");
     background-position: center center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
