@@ -79,6 +79,11 @@ hr {
 
 }
 
+#report {
+    background: rgb(255,212,59);
+    background: linear-gradient(90deg, rgba(255,212,59,1) 0%, rgba(255,232,115,1) 21%, rgba(75,139,190,1) 44%, rgba(48,105,152,1) 95%);
+}
+
 
 
 #logo{
