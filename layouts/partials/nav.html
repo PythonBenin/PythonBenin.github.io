@@ -1,4 +1,4 @@
-<div id="nav-border" class="container">
+<!-- <div id="nav-border" class="container">
     <nav id="nav" class="nav justify-content-center">
     {{ range .Site.Menus.main }}
       {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
@@ -6,18 +6,20 @@
       <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
     {{ end }}
     </nav>
-</div>
-<div style="background: #e9007a; color: white">
-  <div class="container">
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3"  style="background: #e9007a; color: white">
-      <h5 class="my-0 mr-md-auto font-weight-normal">Python Bénin</h5>
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-white" href="#">Accueil</a>
-        <a class="p-2 text-white" href="#">FAQ</a>
-        <a class="p-2 text-white" href="#">Proposer un sujet</a>
-        <a class="p-2 text-white" href="#">Partenaires</a>
+</div> -->
+
+<div class="bg-pink-600 h-16 flex items-center">
+  <div class="mx-auto container">
+      <nav class="flex flex-row justify-between items-center font-bold">
+        <div class="">
+          <a class="bg-purple-500 text-white p-2 text-xl font-bold h-16" href="#">Python Bénin</a>
+          <a class="ml-10 text-white" href="#">FAQ</a>
+          <a class="ml-10 text-white" href="#">Partenaires</a>
+        </div>
+        <div class="">
+          <a class="ml-10 text-white bg-purple-500 rounded p-2 px-4" href="#">Proposer un sujet</a>
+          <a class="ml-10 text-white" href="#">EN ⇄ FR</a>
+        </div>  
       </nav>
-      <a class=" text-white" href="#">EN / FR</a>
-    </div>
   </div>
 </div>
