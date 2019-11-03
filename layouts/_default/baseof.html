@@ -6,8 +6,11 @@
     <div>
       <main>
        {{ block "main" . }}{{ end }}
+       {{ partial "footer.html" . }}
       </main>
     </div>
     {{ partial "script.html" . }}
+    
+
   </body>
 </html>

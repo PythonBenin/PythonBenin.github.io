@@ -9,31 +9,29 @@
 
 <div style="height:600px;" class="h-64 bg-white flex items-center">
   <div class="container mx-auto">
-    <h1 class="text-4xl font-bold text-purple-500">La communauté des utilisateurs du langage de programmation Python au
+    <h1 class="text-4xl font-bold text-purple">La communauté des utilisateurs du langage de programmation Python au
       Bénin</h1>
-    <div class="card-next-meetup mt-4">
-      <p class="text-3xl text-pink-500 font-bold"><span>Prochain Meetup: </span>Gérer les dépendance de votre
-        application avec Pipenv</p>
+      {{ range first 1 (where .Site.RegularPages.ByPublishDate "Section" "meetups") }}
+      <div class="card-next-meetup mt-8">
+        <p class="font-bold text-gray-700 uppercase">Prochain Meetup</p>
+        <p class="text-2xl text-pink font-bold">{{ .Title }}</p> 
 
-      <div class="meetup-info">
-        <div class="info-row flex flex-row items-center">
-          <img src="{{ $icon }}/date.svg" alt="">
-          <p class="ml-2 secondary-font">mer 30 octobre 2020 à 19:00</p>
+        <div class="meetup-info">
+          <div class="info-row flex flex-row items-center">
+            <img src="{{ $icon }}/date.svg" alt="">
+            <p class="ml-2 secondary-font">{{.Params.the_date}} à {{.Params.time}}</p>
+          </div>
+          <div class="info-row flex flex-row items-center mt-1">
+            <img src="{{ $icon }}/location.svg" alt="">
+            <p class="ml-2 secondary-font">{{.Params.location}}</p>
+          </div>
         </div>
-        <div class="info-row flex flex-row items-center mt-1">
-          <img src="{{ $icon }}/location.svg" alt="">
-          <p class="ml-2 secondary-font">Solidar’IT</p>
-        </div>
-        <div class="info-row flex flex-row items-center mt-1">
-          <img src="{{ $icon }}/attendee.svg" alt="">
-          <p class="ml-2 secondary-font">Solidar’IT</p>
-        </div>
-      </div>
+  
+        <p class=" mt-8 text-sm secondary-font">Rejoignez nous sur <a href="">slack</a> ou <a href="">twitter</a> </p>
+  
+      </div>     
 
-      <p class="bg-gray-300 p-2 px-4 mt-8">Rejoignez nous sur <a href="">slack</a> ou <a href="">twitter</a> </p>
-
-
-    </div>
+      {{ end }}
 
   </div>
 
@@ -42,30 +40,18 @@
 <div class="py-8">
   <div class="container">
     <div class="flex flex-row justify-between items-center">
-      <h1 class="text-4xl font-bold text-purple-500">Précédent Meetup</h1>
+      <h1 class="text-4xl font-bold text-purple">Précédent Meetup</h1>
       <div class="algolia">
         <input type="text" class="p-2" placeholder="Chercher un sujet">
       </div>
     </div>
 
     <div class="meetup-list my-8">
-        <div class="meetup-card bg-white p-8">
-          <div class="flex flex-row justify-between border-b-solid border-b-2 border-b-gray-600 pb-4">
-            <p class="text-pink-500 text-xl font-bold">Gérer les dépendances de votre application avec Pipenv</p>
-            <p class="secondary-font">mer 30 octobre 2020 à 19:00</p>
-          </div>
-          <div class="mt-4 meetup-talk-list flex flex-row">
-            <div class="talk-element max-w-md flex flex-row flex-no-wrap">
-              <img style="width:66px;"  width="66" height="66" src="https://randomuser.me/api/portraits/men/32.jpg" class="flex-shrink-0 rounded-full"
-                alt="">
-              <p class="ml-4 font-bold secondary-font">Gérer les dépendance de votre application avec Pipenv<span
-                  class="font-normal"> <br>Junior Gnatin</span></p>
-            </div>
-
-
-          </div>
-        </div>
+        {{ range where .Site.RegularPages "Section" "meetups" }}
+          {{ .Render "summary"}}
+        {{ end }}
       </div>
+
     </div>
 
 

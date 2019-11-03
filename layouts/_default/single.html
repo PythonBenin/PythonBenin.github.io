@@ -1,8 +1,9 @@
 {{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-{{ partial "date-and-tags.html" . }}
-<br><br>
-{{ .Content }}
+<div class="container pt-16">
+    <h1 class="text-4xl text-purple font-bold">{{ .Title }}</h1>
+    <div class="content secondary-font mt-8">
+         {{ .Content }}
+   </div>
+</div>
 
 {{ end }}
