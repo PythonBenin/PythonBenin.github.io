@@ -14,7 +14,7 @@
       {{ range first 1 (where .Site.RegularPages.ByPublishDate "Section" "meetups") }}
       <div class="card-next-meetup mt-8">
         <p class="font-bold text-gray-700 uppercase">Prochain Meetup</p>
-        <p class="text-2xl text-pink font-bold">{{ .Title }}</p> 
+        <p class="text-2xl text-pink font-bold">{{ .Title }}</p>
 
         <div class="meetup-info">
           <div class="info-row flex flex-row items-center">
@@ -26,10 +26,10 @@
             <p class="ml-2 secondary-font">{{.Params.location}}</p>
           </div>
         </div>
-  
+
         <p class=" mt-8 text-sm secondary-font">Rejoignez nous sur <a href="">slack</a> ou <a href="">twitter</a> </p>
-  
-      </div>     
+
+      </div>
 
       {{ end }}
 
