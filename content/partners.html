@@ -1,0 +1,20 @@
+---
+title: Partenaires
+---
+
+<p>Un grand merci aux sponsor pour nous avoir accueilli</p>
+
+{{ range $.Site.Data.partners }}
+    <div class="sponsor-list flex flex-row mt-8">
+            <div class="sponsor-card bg-white p-4 w-56 flex-no-wrap flex-shrink-0 mr-8">
+                <div class="h-32 w-auto">
+                    <img src="" width="100%" height="auto" alt="" class="sponsor-logo">
+                </div>
+                <p class="text-pink font-bold">The Sponsor</p>
+                <p class="text-sm">
+                    <a href="">Website </a>
+                    <a href="">Carrières</a>
+                </p>
+            </div>
+    </div>    
+{{ end }}

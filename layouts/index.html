@@ -1,18 +1,60 @@
 {{ define "main" }}
 
+{{ $icon := "img/icon" | absURL }}
 <!-- <div id="home-jumbotron" class="jumbotron text-center">
   <h1>{{ .Site.Title }}</h1>
   <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
 </div> -->
 
-<h1 class="pt-5" style="color: #61008d; font-size: 30px; font-weight: 800">La communauté des utilisateurs du langage de programmation Python au Bénin</h1>
 
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  <br>
-  {{ partial "date-and-tags.html" . }}
-</p>
-{{ end }}
+<div style="height:600px;" class="h-64 bg-white flex items-center">
+  <div class="container mx-auto">
+    <h1 class="text-4xl font-bold text-purple">La communauté des utilisateurs du langage de programmation Python au
+      Bénin</h1>
+      {{ range first 1 (where .Site.RegularPages.ByPublishDate "Section" "meetups") }}
+      <div class="card-next-meetup mt-8">
+        <p class="font-bold text-gray-700 uppercase">Prochain Meetup</p>
+        <p class="text-2xl text-pink font-bold">{{ .Title }}</p> 
 
-{{ end }}
+        <div class="meetup-info">
+          <div class="info-row flex flex-row items-center">
+            <img src="{{ $icon }}/date.svg" alt="">
+            <p class="ml-2 secondary-font">{{.Params.the_date}} à {{.Params.time}}</p>
+          </div>
+          <div class="info-row flex flex-row items-center mt-1">
+            <img src="{{ $icon }}/location.svg" alt="">
+            <p class="ml-2 secondary-font">{{.Params.location}}</p>
+          </div>
+        </div>
+  
+        <p class=" mt-8 text-sm secondary-font">Rejoignez nous sur <a href="">slack</a> ou <a href="">twitter</a> </p>
+  
+      </div>     
+
+      {{ end }}
+
+  </div>
+
+</div>
+
+<div class="py-8">
+  <div class="container">
+    <div class="flex flex-row justify-between items-center">
+      <h1 class="text-4xl font-bold text-purple">Précédent Meetup</h1>
+      <div class="algolia">
+        <input type="text" class="p-2" placeholder="Chercher un sujet">
+      </div>
+    </div>
+
+    <div class="meetup-list my-8">
+        {{ range where .Site.RegularPages "Section" "meetups" }}
+          {{ .Render "summary"}}
+        {{ end }}
+      </div>
+
+    </div>
+
+
+
+
+    {{ end }}

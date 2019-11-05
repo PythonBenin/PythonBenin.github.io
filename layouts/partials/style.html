@@ -1,6 +1,43 @@
 <style>
+
+  .button-primary {
+    padding: 0.75rem 1rem;
+    background-color: #5C038B;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .main-font {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  }
+  .secondary-font {
+    font-family: 'Roboto Mono';
+  }
+
+  .bg-pink {
+    background-color: #EA007B;
+  }
+
+  .bg-purple {
+    background-color: #5C038B;
+  }
+  .text-pink {
+    color: #EA007B;
+  }
+
+  .text-purple {
+    color: #5C038B;
+  }
+
+  body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #EDEEF2;
+  }
     .container {
-      max-width: {{ .Site.Params.containerMaxWidth | default "800px" | safeCSS }};
+      max-width: 980px;
+      margin: 0 auto;
     }
     #nav a {
       font-weight: bold;
