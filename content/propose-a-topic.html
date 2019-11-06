@@ -2,30 +2,30 @@
 title : Proposer un sujet
 ---
 
-<p> Nous proposons 2 formats différents : <br>
+<p> Nous proposons 2 formats différents : <br><br>
 
     <ul>
-        <li><strong>Le court (5 minutes): </strong>parler de </li>
-        <li><strong>Le long (20 minutes ): </strong>parler de... </li>
+        <li><strong>- Le court (5 minutes): </strong>par exemple pour susciter la curiosité en faisant découvrir une librairie Python, ou pour parler d’un sujet précis lié à la programmation. </li>
+        <li><strong>- Le long (30 minutes + 10 minutes de questions): </strong>parfait pour rentrer un peu plus dans le sujet, développer l’argumentation, faire un “live-coding”. </li>
     </ul>
 
 </p>
 
 <div class="bg-white mt-8 p-8">
-    <form action="">
+    <form method="POST" netlify>
         <div class="form-row">
             <label for="tile">Titre*</label>
-            <input type="text" name="" id="title">
+            <input type="text" name="title" id="title" required>
         </div>
         <div class="form-row">
-            <label for="description">Description</label>
-            <textarea name="" id="" cols="" rows="5"></textarea>
+            <label for="description">Description*</label>
+            <textarea name="" id="description" cols="" rows="5" required></textarea>
         </div>
         <div class="form-row" id="talk-format">
-            <label for="talk-format">Format de Talk</label>
+            <label for="talk-format">Format de Talk*</label>
             <div class="radio-button">
-                <input type="radio" name="talk-format" id="long">
-                <label for="long">Long (20 mins + question) </label>
+                <input type="radio" name="talk-format" id="long" checked>
+                <label for="long">Long (30 mins + questions) </label>
             </div>
             <div class="radio-button">
                 <input type="radio" name="talk-format" id="short">
