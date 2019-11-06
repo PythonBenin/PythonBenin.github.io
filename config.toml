@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Hugo Blog"
+languageCode = "fr-FR"
+title = "Python Bénin"
 
 [permalinks]
   blog = "/:filename/"
