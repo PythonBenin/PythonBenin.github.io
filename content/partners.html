@@ -2,19 +2,39 @@
 title: Partenaires
 ---
 
-<p>Un grand merci aux sponsor pour nous avoir accueilli</p>
+<p>
+    Un grand merci aux sponsors de nous avoir accueilli dans leurs locaux ou offert le buffet.
+</p>
+<p>
+    Si vous souhaitez nous sponsoriser, il suffit de remplir ce <a class="link" href="https://forms.gle/r3T3a9boNhPrBFHp9">formulaire</a>.
+</p>
 
-{{ range $.Site.Data.partners }}
-    <div class="sponsor-list flex flex-row mt-8">
-            <div class="sponsor-card bg-white p-4 w-56 flex-no-wrap flex-shrink-0 mr-8">
-                <div class="h-32 w-auto">
-                    <img src="" width="100%" height="auto" alt="" class="sponsor-logo">
-                </div>
-                <p class="text-pink font-bold">The Sponsor</p>
-                <p class="text-sm">
-                    <a href="">Website </a>
-                    <a href="">Carrières</a>
-                </p>
-            </div>
-    </div>    
-{{ end }}
+<div class="sponsor-list flex flex-row mt-8">
+    <div class="sponsor-card bg-white p-4 w-56 flex-no-wrap flex-shrink-0 mr-8">
+        <div class="h-32 w-auto">
+            <img src="https://res.cloudinary.com/nioperas06/image/upload/c_scale,h_520,w_1200/v1573044779/python-logo-master-v3-TM-flattened_a3mhgj.png" width="100%" height="auto" alt="" class="sponsor-logo">
+        </div>
+        <p class="text-pink font-bold">Python Software Foundation</p>
+        <p class="text-sm">
+            <a href="https://www.python.org/psf-landing/">Website </a>
+        </p>
+    </div>
+    <div class="sponsor-card bg-white p-4 w-56 flex-no-wrap flex-shrink-0 mr-8">
+        <div class="h-32 w-auto">
+            <img src="https://solidarit-hub.org/wp-content/uploads/2018/10/Logo_Fond_Transparent-2.png" width="100%" height="auto" alt="" class="sponsor-logo">
+        </div>
+        <p class="text-pink font-bold">Solidar'it</p>
+        <p class="text-sm">
+            <a href="https://solidarit-hub.org/">Website </a>
+            <a href="https://solidarit-hub.org/jobs/">Jobs</a>
+        </p>
+    </div>
+</div>
+
+<style>
+    .link {
+        color: #5F428B;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+</style>
