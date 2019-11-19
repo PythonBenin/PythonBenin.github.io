@@ -1,5 +1,14 @@
 <style>
 
+  .link {
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+  #mobilemenu {
+    transition: .3s;
+  }
+
   .button-primary {
     padding: 0.75rem 1rem;
     background-color: #5C038B;
@@ -23,6 +32,11 @@
   .bg-purple {
     background-color: #5C038B;
   }
+
+  .bg-purple-dark {
+    background-color:#420264;
+  }
+
   .text-pink {
     color: #EA007B;
   }
@@ -31,12 +45,17 @@
     color: #5C038B;
   }
 
+  .mobile-menu-item-bordered {
+    border: solid #5C038B 1px;
+  }
+
   body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     background-color: #EDEEF2;
   }
     .container {
-      max-width: 980px;
+      max-width: 1060px;
+      padding: 40px 40px;
       margin: 0 auto;
     }
     #nav a {
@@ -62,4 +81,35 @@
     img {
       max-width: 100%;
     }
+
+
+
+    @media (max-width: 400px) { 
+      .container {
+        padding: inherit 15px;
+      }
+
+
+
+      .main-cta {
+        border: #EDEEF2 solid 1px;
+        background: transparent;
+      }
+    
+    }
+
+    @media (max-width: 640px) { 
+      .main-cta {
+        border: #EDEEF2 solid 1px;
+        background: transparent;
+      }
+
+      .nav-container {
+        padding-left: 0px;
+      }
+    
+    }
+
+
+
 </style>
