@@ -1,6 +1,22 @@
 baseURL = "http://example.org/"
 languageCode = "fr-FR"
-title = "Python Bénin"
+#title = "Python Bénin"
+
+# Support for multiple languages
+
+DefaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.fr]
+    title = "Python Bénin"
+    languageName = "French"
+    contentDir = "content/french"
+    weight = 1
+  [languages.en]
+    title = "Python Benin"
+    languageName = "English"
+    contentDir = "content/english"
+    weight = 2
 
 [permalinks]
   blog = "/:filename/"
