@@ -41,11 +41,16 @@
                     <div class="flex flex-row sm:w-full justify-between">
                         <div class="hidden sm:block">
                             <a class="ml-10 text-white" href="/faq">FAQ</a>
-                            <a class="ml-10 text-white" href="/partners">Partenaires</a>
+                            <a class="ml-10 text-white" href="/partners">{{ T "partners" }}</a>
                         </div>
                         <div>
-                          <a class="main-cta ml-10 text-white hidden sm:inline bg-purple p-2 px-4" href="/propose-a-topic">Proposer un sujet</a>
-                          <a class="ml-10 text-white uppercase " href="#">En</a>
+                            <a class="main-cta ml-10 text-white hidden sm:inline bg-purple p-2 px-4" href="/propose-a-topic">{{ T "propose-topic" }}</a>
+                            <!-- <a class="ml-10 text-white uppercase " href="#">En</a> -->
+                            {{ if .IsTranslated }}
+                                {{ range .Translations }}
+                                    <a class="ml-10 text-white uppercase" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                                {{ end}}
+                            {{ end }}
                         </div>  
                     </div>
               </div>
@@ -58,16 +63,16 @@
             
       <div id="mobilemenu" class="bg-purple-dark py-0 z-50 h-0 overflow-hidden sm:hidden">
           <nav class="nav-mobile pt-6 text-center font-bold flex flex-col">
-              <a class=" w-full text-white font-normal p-2 px-4 py-3" href="/">&lt; Aller à l'acceuil</a>
+              <a class=" w-full text-white font-normal p-2 px-4 py-3" href="/">&lt; {{ T "home" }}</a>
 
               <div class="flex flex-row w-full mt-2">
 
                   <a class="text-white text-center w-1/2 mobile-menu-item-bordered py-3" href="/faq">FAQ</a>
-                  <a class="text-white w-1/2 text-center mobile-menu-item-bordered py-3" href="/partners">Partenaires</a>
+                  <a class="text-white w-1/2 text-center mobile-menu-item-bordered py-3" href="/partners">{{ T "partners" }}</a>
               </div>
 
               <div class="mb-8 mt-8 ">
-                  <a class="  text-black bg-white max-w-xm p-2 px-16 " href="/propose-a-topic">Proposer un sujet</a>
+                  <a class="  text-black bg-white max-w-xm p-2 px-16 " href="/propose-a-topic">{{ T "propose-topic" }}</a>
               </div>
 
         

@@ -1,0 +1,20 @@
+[home]
+other = "Home"
+
+[heading]
+other = "The community of users of the Python programming language in Benin"
+
+[next-meetup]
+other = "Next Meetup"
+
+[join-us]
+other = "Join the community on "
+
+[prev-meetup]
+other = "Previous meetups"
+
+[partners]
+other = "Partners"
+
+[propose-topic]
+other = "Propose a topic"
