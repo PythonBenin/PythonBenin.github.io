@@ -2,13 +2,13 @@ DefaultContentLanguage = "fr"
 
 [languages]
   [languages.fr]
-    baseURL = "http://example.org/"
+    baseURL = "/"
     title = "Python Bénin"
     languageName = "French"
     contentDir = "content/french"
     weight = 1
   [languages.en]
-    baseURL = "http://example.org/"
+    baseURL = "/"
     title = "Python Benin"
     languageName = "English"
     contentDir = "content/english"
