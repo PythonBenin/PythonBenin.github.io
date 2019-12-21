@@ -1,3 +1,6 @@
+baseURL = "/"
+languageCode = "fr-FR"
+title = "Python Bénin"
 DefaultContentLanguage = "fr"
 
 [languages]
