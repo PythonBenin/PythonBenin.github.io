@@ -2,7 +2,6 @@ baseURL = "/"
 languageCode = "fr-FR"
 title = "Python Benin"
 DefaultContentLanguage = "fr"
-theme = "hugo-paper"
 
 [languages]
   [languages.fr]
