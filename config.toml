@@ -5,13 +5,11 @@ DefaultContentLanguage = "fr"
 
 [languages]
   [languages.fr]
-    baseURL = "https://optimistic-wilson-167567.netlify.com"
     title = "Python Bénin"
     languageName = "French"
     contentDir = "content/french"
     weight = 1
   [languages.en]
-    baseURL = "https://optimistic-wilson-167567.netlify.com"
     title = "Python Benin"
     languageName = "English"
     contentDir = "content/english"
