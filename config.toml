@@ -1,17 +1,17 @@
-baseURL = "/"
+baseURL = "https://optimistic-wilson-167567.netlify.com"
 languageCode = "fr-FR"
 title = "Python Benin"
 DefaultContentLanguage = "fr"
 
 [languages]
   [languages.fr]
-    baseURL = "/"
+    baseURL = "https://optimistic-wilson-167567.netlify.com"
     title = "Python Bénin"
     languageName = "French"
     contentDir = "content/french"
     weight = 1
   [languages.en]
-    baseURL = "/"
+    baseURL = "https://optimistic-wilson-167567.netlify.com"
     title = "Python Benin"
     languageName = "English"
     contentDir = "content/english"
