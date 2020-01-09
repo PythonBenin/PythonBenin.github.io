@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetups on Python Benin</title>
+    <link>https://pythonbenin.com/en/meetups/</link>
+    <description>Recent content in Meetups on Python Benin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    
+	<atom:link href="https://pythonbenin.com/en/meetups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1 - Discover Beninese Software Companies Using Python Programming Languages</title>
+      <link>https://pythonbenin.com/en/meetups/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/en/meetups/1/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>2 - Python Web Frameworks Battle</title>
+      <link>https://pythonbenin.com/en/meetups/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/en/meetups/2/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>3 - How we built a payment gateway package in Python</title>
+      <link>https://pythonbenin.com/en/meetups/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/en/meetups/3/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>4 - Programming Games With Python</title>
+      <link>https://pythonbenin.com/en/meetups/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/en/meetups/4/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>5 - Python &amp; Data Science</title>
+      <link>https://pythonbenin.com/en/meetups/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/en/meetups/5/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>Python Benin, One Year Later</title>
+      <link>https://pythonbenin.com/en/meetups/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/en/meetups/6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

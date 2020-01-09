@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Python Benin</title>
+    <link>https://pythonbenin.com/en/tags/</link>
+    <description>Recent content in Tags on Python Benin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sun, 13 Jan 2019 20:28:42 -0600</lastBuildDate>
+    
+	<atom:link href="https://pythonbenin.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>poetry</title>
+      <link>https://pythonbenin.com/en/tags/poetry/</link>
+      <pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/en/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trees</title>
+      <link>https://pythonbenin.com/en/tags/trees/</link>
+      <pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/en/tags/trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time</title>
+      <link>https://pythonbenin.com/en/tags/time/</link>
+      <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/en/tags/time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://pythonbenin.com/en/tags/life/</link>
+      <pubDate>Sat, 12 Jan 2019 22:14:57 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/en/tags/life/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

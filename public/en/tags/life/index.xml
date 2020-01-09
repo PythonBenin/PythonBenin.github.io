@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on Python Benin</title>
+    <link>https://pythonbenin.com/en/tags/life/</link>
+    <description>Recent content in life on Python Benin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 12 Jan 2019 22:14:57 -0600</lastBuildDate>
+    
+	<atom:link href="https://pythonbenin.com/en/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>If by Rudyard Kipling</title>
+      <link>https://pythonbenin.com/en/if-by-rudyard-kipling/</link>
+      <pubDate>Sat, 12 Jan 2019 22:14:57 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/en/if-by-rudyard-kipling/</guid>
+      <description>If you can keep your head when all about you Are losing theirs and blaming it on you, If you can trust yourself when all men doubt you, But make allowance for their doubting too; If you can wait and not be tired by waiting, Or being lied about, don’t deal in lies, Or being hated, don’t give way to hating, And yet don’t look too good, nor talk too wise:</description>
+    </item>
+    
+  </channel>
+</rss>
