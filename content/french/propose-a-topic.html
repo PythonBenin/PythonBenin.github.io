@@ -1,0 +1,111 @@
+---
+title : Proposer un sujet
+---
+
+<p> Nous proposons 2 formats différents : <br><br>
+
+    <ul>
+        <li><strong>- Le court (5 minutes): </strong>par exemple pour susciter la curiosité en faisant découvrir une librairie Python, ou pour parler d’un sujet précis lié à la programmation. </li>
+        <li><strong>- Le long (30 minutes + 10 minutes de questions): </strong>parfait pour rentrer un peu plus dans le sujet, développer l’argumentation, faire un “live-coding”. </li>
+    </ul>
+
+</p>
+
+<div class="bg-white mt-8 p-8">
+    <form method="POST" netlify>
+        <div class="form-row">
+            <label for="tile">Titre*</label>
+            <input type="text" name="title" id="title" required>
+        </div>
+        <div class="form-row">
+            <label for="description">Description*</label>
+            <textarea name="" id="description" cols="" rows="5" required></textarea>
+        </div>
+        <div class="form-row" id="talk-format">
+            <label for="talk-format">Format de Talk*</label>
+            <div class="radio-button">
+                <input type="radio" name="talk-format" id="long" checked>
+                <label for="long">Long (30 mins + questions) </label>
+            </div>
+            <div class="radio-button">
+                <input type="radio" name="talk-format" id="short">
+                <label for="short">Court (5 mins) </label>
+            </div>
+
+        </div>
+
+        <div class="form-row">
+            <label for="slide-link">Lien vers les slides</label>
+            <input type="text" name="" id="slide-link" placeholder="https://">
+        </div>
+
+        <div class="form-row">
+            <label for="project-link">Lien vers le projet</label>
+            <input type="text" name="" id="project-link" placeholder="https://">
+        </div>
+        <div class="form-row">
+            <label for="twitter">Twitter</label>
+            <input type="text" name="" id="twitter" placeholder="@pythonbenin">
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+        <input class="button-primary" type="submit" value="Valider">
+
+    </form>
+</div>
+
+<style>
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem ;
+    }
+
+    label {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-row textarea {
+        height: inherit;
+    }
+
+    .form-row input, textarea {
+        width: 100%;
+        height: 50px;
+        border: solid 1px gray;
+        align-items: center;
+        padding: 0.75rem;
+        outline: none;
+        
+    }
+    .form-row input:hover {
+        
+    }
+    .form-row input:hover, input:focus, textarea:focus {
+        border-color: #5C038B;
+        border-width: 2px;
+    }
+    .form-row:focus-within label {
+        
+
+    }
+
+
+    .form-row input[type=radio] {
+        height: 1rem;
+        width: 1rem;
+        text-align: left;
+    }
+    .radio-button {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem ;
+    }
+    .radio-button label {
+        padding-left: 0.5rem ;
+        font-weight: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+</style>

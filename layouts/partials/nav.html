@@ -1,0 +1,82 @@
+<!-- <div id="nav-border" class="container">
+    <nav id="nav" class="nav justify-content-center">
+    {{ range .Site.Menus.main }}
+      {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
+      {{ $text := print $icon " " .Name | safeHTML }}
+      <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
+    {{ end }}
+    </nav>s
+</div> -->
+
+<div>
+    <div class="bg-pink h-16 flex items-center">
+        <div class="mx-auto container nav-container">
+            <nav class="font-bold">
+              <div class="flex flex-row items-center justify-between ">
+                  <div class="flex flex-row items-center">
+                      
+                        <div class="bg-purple text-white pl-0 sm:text-xl font-bold h-20 mt-4 flex flex-row items-center">
+                          <div class=" bg-purple-dark sm:hidden h-full flex-shrink-0 flex flex-center w-16" >
+                              <button type="button" id="menu-open" class=" w-full h-full mx-auto focus:outline-none focus:text-gray-700" onclick="openMobileMenu()">
+                                  <svg class="m-auto" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M16 0V2H0V0H16ZM0 12H16V10H0V12ZM0 7H16V5H0V7Z" fill="white"/>
+                                  </svg>
+                                  </button>
+            
+                                <button type="button" id="menu-close" class="w-full h-full hidden mx-auto focus:outline-none focus:text-gray-700" onclick="closeMobileMenu()">
+                                    <svg class="m-auto" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29296 7.00008L0 1.70712L1.41421 0.292908L6.70717 5.58586L12.0001 0.292915L13.4143 1.70713L8.12138 7.00008L13.4142 12.2929L12 13.7071L6.70717 8.41429L1.41433 13.7071L0.000116348 12.2929L5.29296 7.00008Z" fill="white"/>
+                                    </svg>
+                                      
+                                  </button>
+                          </div>
+                          <a class="w-full h-full flex px-4" href="/">
+                            <p class="m-auto">Python <br> Bénin</p>
+                          </a>
+                          
+      
+                        </div>
+                    </div>
+            
+                    <div class="flex flex-row sm:w-full justify-between">
+                        <div class="hidden sm:block">
+                            <a class="ml-10 text-white" href="/faq">FAQ</a>
+                            <a class="ml-10 text-white" href="/partners">{{ T "partners" }}</a>
+                        </div>
+                        <div>
+                            <a class="main-cta ml-10 text-white hidden sm:inline bg-purple p-2 px-4" href="/propose-a-topic">{{ T "propose-topic" }}</a>
+                            <!-- <a class="ml-10 text-white uppercase " href="#">En</a> -->
+                            {{ if .IsTranslated }}
+                                {{ range .Translations }}
+                                    <a class="ml-10 text-white uppercase" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                                {{ end}}
+                            {{ end }}
+                        </div>  
+                    </div>
+              </div>
+      
+             
+            </nav>
+        </div>
+      </div>
+
+            
+      <div id="mobilemenu" class="bg-purple-dark py-0 z-50 h-0 overflow-hidden sm:hidden">
+          <nav class="nav-mobile pt-6 text-center font-bold flex flex-col">
+              <a class=" w-full text-white font-normal p-2 px-4 py-3" href="/">&lt; {{ T "home" }}</a>
+
+              <div class="flex flex-row w-full mt-2">
+
+                  <a class="text-white text-center w-1/2 mobile-menu-item-bordered py-3" href="/faq">FAQ</a>
+                  <a class="text-white w-1/2 text-center mobile-menu-item-bordered py-3" href="/partners">{{ T "partners" }}</a>
+              </div>
+
+              <div class="mb-8 mt-8 ">
+                  <a class="  text-black bg-white max-w-xm p-2 px-16 " href="/propose-a-topic">{{ T "propose-topic" }}</a>
+              </div>
+
+        
+          </nav>
+      
+        </div>
+</div>

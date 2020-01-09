@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>time on Python Bénin</title>
+    <link>https://pythonbenin.com/tags/time/</link>
+    <description>Recent content in time on Python Bénin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 12 Jan 2019 23:24:54 -0600</lastBuildDate>
+    
+	<atom:link href="https://pythonbenin.com/tags/time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>That it will never come again by Emily Dickinson</title>
+      <link>https://pythonbenin.com/that-it-will-never-come-again-by-emily-dickinson/</link>
+      <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/that-it-will-never-come-again-by-emily-dickinson/</guid>
+      <description>That it will never come again Is what makes life so sweet. Believing what we don’t believe Does not exhilarate.
+That if it be, it be at best An ablative estate &amp;ndash; This instigates an appetite Precisely opposite.</description>
+    </item>
+    
+  </channel>
+</rss>

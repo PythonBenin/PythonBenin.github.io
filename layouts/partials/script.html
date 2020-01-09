@@ -1,0 +1,22 @@
+{{ $js := "js/feather.min.js" | absURL }}
+<script src="{{ $js }}"></script>
+<script>
+  feather.replace()
+
+  var mobilemenu = document.getElementById('mobilemenu')
+
+
+
+  function openMobileMenu () {
+      mobilemenu.style.height = "220px"
+      document.getElementById('menu-open').style.display = "none"
+      document.getElementById('menu-close').style.display = "inline"
+
+  }
+
+  function closeMobileMenu () {
+      mobilemenu.style.height = "0"
+      document.getElementById('menu-open').style.display = "inline"
+      document.getElementById('menu-close').style.display = "none"
+  }
+</script>

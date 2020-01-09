@@ -1,0 +1,37 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    {{ hugo.Generator }}
+
+    <!-- Primary Meta Tags -->
+    <title>Python Benin</title>
+    <meta name="title" content="Python Benin">
+    <meta name="description" content="La communauté des utilisateurs du langage de programmation Python au Bénin">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pythonbenin.com/">
+    <meta property="og:title" content="Python Benin">
+    <meta property="og:description" content="La communauté des utilisateurs du langage de programmation Python au Bénin">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pythonbenin.com/">
+    <meta property="twitter:title" content="Python Benin">
+    <meta property="twitter:description" content="La communauté des utilisateurs du langage de programmation Python au Bénin">
+    <meta property="twitter:image" content="La communauté des utilisateurs du langage de programmation Python au Bénin">
+    <!-- {{ $css := "css/bootstrap.min.css" | absURL }}
+    <link rel="stylesheet" href="{{ $css }}"> -->
+
+    {{ $title := print .Title " | " .Site.Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+    {{ partial "style.html" . }}
+</head>
+
+
