@@ -1,26 +1,26 @@
-<h1 align="center">PythonBenin</h1>
+<h1 align="center">Python Benin</h1>
 
 <div align="center">
-  A <code>4kb</code> framework for creating sturdy frontend applications
+  The <code>Python</code> Programming Language User Group in <code>Benin</code>.
 </div>
 
 <br />
 
 <div align="center">
   <h3>
-    <a href="https://choo.io">
+    <a href="https://pythonbenin.com/">
       Website
     </a>
     <span> | </span>
-    <a href="https://github.com/choojs/choo-handbook">
+    <a href="https://join.slack.com/t/pythonbenin/shared_invite/enQtODAxMjg2Njk5NzYzLTEwNTQwOTg4MGI4ZGVkYzgyOTA2NTQ2OTc2YmRmZjkyODJjNWYyMDc0ODg4ZjRmZmMxNDI4OWVlNTFhM2I5YmE">
       Slack
     </a>
     <span> | </span>
-    <a href="https://github.com/YerkoPalma/awesome-choo">
+    <a href="https://twitter.com/PythonBenin">
       Twitter
     </a>
     <span> | </span>
-    <a href="https://github.com/choojs/choo/blob/master/.github/CONTRIBUTING.md">
+    <a href="https://github.com/PythonBenin/PythonBenin.github.io/blob/master/.github/CONTRIBUTING.md">
       Contributing
     </a>
   </h3>
