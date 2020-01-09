@@ -20,7 +20,7 @@
       Twitter
     </a>
     <span> | </span>
-    <a href="https://github.com/PythonBenin/PythonBenin.github.io/blob/master/.github/CONTRIBUTING.md">
+    <a href="https://github.com/PythonBenin/PythonBenin.github.io/blob/master/CONTRIBUTING.md">
       Contributing
     </a>
   </h3>
