@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Bénin</title>
+    <link>https://pythonbenin.com/</link>
+    <description>Recent content on Python Bénin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sun, 13 Jan 2019 20:28:42 -0600</lastBuildDate>
+    
+	<atom:link href="https://pythonbenin.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trees by Joyce Kilmer</title>
+      <link>https://pythonbenin.com/trees-by-joyce-kilmer/</link>
+      <pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/trees-by-joyce-kilmer/</guid>
+      <description>I think that I shall never see A poem lovely as a tree.
+A tree whose hungry mouth is prest Against the earth’s sweet flowing breast;
+A tree that looks at God all day, And lifts her leafy arms to pray;
+A tree that may in Summer wear A nest of robins in her hair;
+Upon whose bosom snow has lain; Who intimately lives with rain.
+Poems are made by fools like me, But only God can make a tree.</description>
+    </item>
+    
+    <item>
+      <title>That it will never come again by Emily Dickinson</title>
+      <link>https://pythonbenin.com/that-it-will-never-come-again-by-emily-dickinson/</link>
+      <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/that-it-will-never-come-again-by-emily-dickinson/</guid>
+      <description>That it will never come again Is what makes life so sweet. Believing what we don’t believe Does not exhilarate.
+That if it be, it be at best An ablative estate &amp;ndash; This instigates an appetite Precisely opposite.</description>
+    </item>
+    
+    <item>
+      <title>If by Rudyard Kipling</title>
+      <link>https://pythonbenin.com/if-by-rudyard-kipling/</link>
+      <pubDate>Sat, 12 Jan 2019 22:14:57 -0600</pubDate>
+      
+      <guid>https://pythonbenin.com/if-by-rudyard-kipling/</guid>
+      <description>If you can keep your head when all about you Are losing theirs and blaming it on you, If you can trust yourself when all men doubt you, But make allowance for their doubting too; If you can wait and not be tired by waiting, Or being lied about, don’t deal in lies, Or being hated, don’t give way to hating, And yet don’t look too good, nor talk too wise:</description>
+    </item>
+    
+    <item>
+      <title>1 - Découvrez les entreprises Béninoises utilisant le langage de programmation Python</title>
+      <link>https://pythonbenin.com/meetups/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/meetups/1/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>2 - La Bataille des Frameworks Web Python</title>
+      <link>https://pythonbenin.com/meetups/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/meetups/2/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>3 - Comment nous avons construit une librairie Python pour une de passerelle de paiement</title>
+      <link>https://pythonbenin.com/meetups/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/meetups/3/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>4 - Créer des jeux vidéos avec Python</title>
+      <link>https://pythonbenin.com/meetups/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/meetups/4/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>5 - Python &amp; Data Science</title>
+      <link>https://pythonbenin.com/meetups/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/meetups/5/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>Foire Aux Questions</title>
+      <link>https://pythonbenin.com/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/faq/</guid>
+      <description>Python Bénin
+Qu&#39;est ce que c&#39;est?
+Python Bénin est une communauté qui réunit tous les Pythonista du Bénin, qu’ils soient débutants ou experts, professionnels ou juste curieux. Un meetup est organisé chaque trimestre, avec des orateurs de la communauté et qui se termine autour d’un buffet permettant l&#39;échange entre les membres. Qui sommes nous ?
+Python Bénin n’est affilié à aucune entreprise, nous n’avons pas d&#39;existence juridique. La communauté existe par elle-même et est animée par tous ceux qui le souhaitent.</description>
+    </item>
+    
+    <item>
+      <title>Partenaires</title>
+      <link>https://pythonbenin.com/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/partners/</guid>
+      <description>  Un grand merci aux sponsors de nous avoir accueilli dans leurs locaux ou offert le buffet.  Si vous souhaitez nous sponsoriser, il suffit de remplir ce formulaire.  Python Software Foundation
+Website    Solidar&#39;it
+Website  Jobs   </description>
+    </item>
+    
+    <item>
+      <title>Proposer un sujet</title>
+      <link>https://pythonbenin.com/propose-a-topic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/propose-a-topic/</guid>
+      <description>Nous proposons 2 formats différents :  - Le court (5 minutes): par exemple pour susciter la curiosité en faisant découvrir une librairie Python, ou pour parler d’un sujet précis lié à la programmation.  - Le long (30 minutes + 10 minutes de questions): parfait pour rentrer un peu plus dans le sujet, développer l’argumentation, faire un “live-coding”.   Titre*  Description*   Format de Talk* Long (30 mins + questions)   Court (5 mins)    Lien vers les slides  Lien vers le projet  Twitter      .</description>
+    </item>
+    
+    <item>
+      <title>Python Benin, Une année après</title>
+      <link>https://pythonbenin.com/meetups/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pythonbenin.com/meetups/6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
